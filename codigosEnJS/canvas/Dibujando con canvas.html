@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Dibujando con canvas</title>
+  </head>
+  <style> /* Esto es un comentario en CSS*/
+  body /* body sera el cuerpo de nuestra pagina web */
+  {
+    background-color: black; /* aqui cambiamos el color de fondo de la pagina */
+    color: white; /* color es el color de la letra */
+    font-family: helvetica; /* seleccionamos la familia de fuentes */
+  }
+  </style>
+  <body>
+    <h1>Dibujo en canvas</h1>
+    <p>
+      Cuantas lineas quieres <br/> Mi amigo </br> <!-- "br" es para salto de linea -->
+      <input type="text" id="texto_lineas" /> <!--- caja de texto predeterminada -->
+      <input type="button" value="A darle!" id="botoncito" /> <!-- etiqueta de boton -->
+    </p>
+    <canvas width="300" height="300" id="dibujito"></canvas> <!-- definimos el ancho y
+    el alto. "id" es para buscar la etiqueta cuando trabajemos en js. los id tienen
+  las mismas propiedades de las variables. -->
+    <p>Asi queda tu dibujo</p>
+    <script src="dibujo.js"></script> <!-- codigo para indicar que tengo una "ventana"
+    a un archivo de js.-->
+  </body>
+</html>

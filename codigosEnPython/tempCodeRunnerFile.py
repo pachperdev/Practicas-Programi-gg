@@ -1,0 +1,1 @@
+promedioTamaño = sumaTamaño / numeroPacientes

@@ -1,0 +1,1 @@
+cout << "Ingrese la inicial de su nombre, su edad y el valor de su bebida favorita: " << endl;
